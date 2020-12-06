@@ -42,6 +42,53 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .bloq-segundo .grid li.small,
+    .bloq-segundo .grid li.large {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bloq-tercero .grid li {
+        flex-basis: 70%;
+        margin-bottom: 65px;
+    }
+    .bloq-tercero .grid li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .bloq-tercero .grid li {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .reviews .quote {
+        font-size: 20px;
+    }
+    .reviews .author {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .reviews .quote {
+        font-size: 20px;
+    }
+    .reviews .author {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    footer {
+        padding: 80px 15px;
+    }
+}
+
 
 /* Selector universal para toda la web*/
 
@@ -213,9 +260,7 @@ header nav li:last-child {
 }
 
 
-/*--------------------
- 	Our Work Section
----------------------*/
+/*Segundo bloque */
 
 .bloq-segundo {
     background-color: whitesmoke;
@@ -228,7 +273,6 @@ header nav li:last-child {
     background-clip: content-box;
     background-size: cover;
     background-position: center;
-    background-color: #333;
 }
 
 
@@ -242,58 +286,53 @@ header nav li:last-child {
     flex-basis: 60%;
 }
 
-@media (max-width: 1000px) {
-    .bloq-segundo .grid li.small,
-    .bloq-segundo .grid li.large {
-        flex-basis: 100%;
-    }
+
+/*Section bloque tercero*/
+
+
+/* vamos a usar un fondo degradado para que marque un poco las diferentes parte de la web*/
+
+.bloq-tercero {
+    background: linear-gradient(to top, rgb(230, 230, 230), rgba(255, 255, 255));
+    background-color: #bdbdbd;
 }
 
-
-/*----------------------
- 	Features Section
-----------------------*/
-
-.features {
-    background-color: #f7f7f7;
-}
-
-.features .grid li {
+.bloq-tercero .grid li {
     padding: 0 30px;
     flex-basis: 33%;
     text-align: center;
 }
 
-.features .grid li i {
+.bloq-tercero .grid li i {
     font-size: 50px;
     color: #2196F3;
     margin-bottom: 25px;
 }
 
-.features .grid li h4 {
-    color: #555;
+.bloq-tercero .grid li h4 {
+    color: rgb(49, 49, 49);
     font-size: 20px;
     margin-bottom: 25px;
 }
 
-.features .grid li p {
+.bloq-tercero .grid li p {
     margin: 0;
 }
 
-@media (max-width: 1000px) {
-    .features .grid li {
-        flex-basis: 70%;
-        margin-bottom: 65px;
-    }
-    .features .grid li:last-child {
-        margin-bottom: 0;
-    }
+.bloq-tercero h5 {
+    font-style: italic;
 }
 
-@media (max-width: 600px) {
-    .features .grid li {
-        flex-basis: 100%;
-    }
+.medium {
+    box-shadow: 5px 5px 5px 0px rgba(163, 163, 163, 1);
+    width: 250px;
+    border: solid 10px whitesmoke;
+}
+
+.inter {
+    box-shadow: 5px 5px 5px 0px rgba(163, 163, 163, 1);
+    width: 500px;
+    border: solid 10px whitesmoke;
 }
 
 
@@ -322,15 +361,6 @@ header nav li:last-child {
 
 .reviews .author:last-child {
     margin-bottom: 0;
-}
-
-@media (max-width: 1000px) {
-    .reviews .quote {
-        font-size: 20px;
-    }
-    .reviews .author {
-        font-size: 16px;
-    }
 }
 
 
@@ -375,19 +405,4 @@ footer p {
 
 footer p a {
     color: #fff;
-}
-
-@media (max-width: 700px) {
-    footer {
-        padding: 80px 15px;
-    }
-}
-
-
-/* -- Demo ads -- */
-
-@media (max-width: 1200px) {
-    #bsaHolder {
-        display: none;
-    }
 }
