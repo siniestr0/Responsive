@@ -1,6 +1,8 @@
-/*Con esto hacemos que la web sea RESPONSIVE*/
+/*
+Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se pide en el enunciado un máximo de 1200px
+*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     section {
         padding: 100px 50px;
     }
@@ -12,7 +14,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     header {
         padding: 20px 50px;
     }
@@ -42,14 +44,14 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .bloq-segundo .grid li.small,
     .bloq-segundo .grid li.large {
         flex-basis: 100%;
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .bloq-tercero .grid li {
         flex-basis: 70%;
         margin-bottom: 65px;
@@ -65,7 +67,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .reviews .quote {
         font-size: 20px;
     }
@@ -74,7 +76,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .reviews .quote {
         font-size: 20px;
     }
