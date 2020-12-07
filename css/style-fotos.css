@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     section {
         padding: 100px 50px;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .bloq-segundo-fotos .grid li.small,
     .bloq-segundo-fotos .grid li.large {
         flex-basis: 100%;
@@ -58,7 +58,7 @@ ul.grid {
 }
 
 .small,
-.large {
+.medium {
     box-shadow: 5px 5px 5px 0px rgba(163, 163, 163, 1);
 }
 
@@ -79,9 +79,9 @@ ul.grid {
 /*esto es el tamaño de las fotos para que ocupen el 100% del body*/
 
 .bloq-segundo-fotos .grid li.small {
-    flex-basis: 40%;
+    flex-basis: 30%;
 }
 
-.bloq-segundo-fotos .grid li.large {
-    flex-basis: 60%;
+.bloq-segundo-fotos .grid li.medium {
+    flex-basis: 35%;
 }
