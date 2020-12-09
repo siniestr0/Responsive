@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     section {
         padding: 100px 50px;
     }
@@ -10,7 +10,7 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     .bloq-segundo-fotos .grid li.small,
     .bloq-segundo-fotos .grid li.large {
         flex-basis: 100%;

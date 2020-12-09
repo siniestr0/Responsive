@@ -1,8 +1,11 @@
 /*
 Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se pide en el enunciado un máximo de 1200px
+
+Siempre y cuando el tamaño no sea superior a 1200px, la web se mostrará al completo, en el momento en el que sea superior,
+el css adaptará el tamaño de la pagina, para que sea visible de la mejor forma posible dependiendo del dispositivo.
 */
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     section {
         padding: 100px 50px;
     }
@@ -14,7 +17,7 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     header {
         padding: 20px 50px;
     }
@@ -44,14 +47,14 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     .bloq-segundo .grid li.small,
     .bloq-segundo .grid li.large {
         flex-basis: 100%;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     .bloq-tercero .grid li {
         flex-basis: 70%;
         margin-bottom: 65px;
@@ -64,7 +67,7 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     .articulos .art {
         font-size: 20px;
     }
@@ -73,7 +76,7 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1190px) {
     .articulos .art {
         font-size: 20px;
     }
@@ -226,7 +229,7 @@ header nav li:last-child {
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-color: #b16161;
+    background-color: #d81b1be1;
     z-index: -1;
 }
 
@@ -240,7 +243,7 @@ header nav li:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #79787821;
+    background-color: #797878c9;
     opacity: 0.75;
 }
 

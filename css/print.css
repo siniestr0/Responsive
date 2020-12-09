@@ -1,0 +1,17 @@
+@media print {
+    body {
+        background: white;
+        color: black;
+        margin: 0;
+    }
+    header {
+        display: none;
+    }
+    section {
+        color: black;
+        font-size: 15px;
+    }
+    footer {
+        display: none;
+    }
+}

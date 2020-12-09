@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- Con esta etiqueta usamos la escala automática para que se configure dependiendo del tamaño de la pantalla -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>El Principio del Fin</title>
-
+    <!-- importago de google 2 fuentes que usaremos en los encabezados de los H -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Responsive/../css/styles.css">
+    <link rel="stylesheet" type="text/css" href=css/styles.css>
+    <link rel="stylesheet" href=css/print.css media="print">
     <link rel="shortcut icon" href="Responsive/../img/puerta.png" type="image/x-icon">
 
 </head>
@@ -32,7 +34,8 @@
 
         </nav>
     </header>
-
+    <!-- Presentación de la pagina -->
+    <!-- tenemos una imagen de fondo para marca el inicio de esa presentación con el resto de bloques de la pagina-->
     <section class="bloq-principal">
         <div class="fondo-image" style="background-image: url(Responsive/../img/fondo4.jpg);"></div>
         <h1>Una nueva vida surge al finalizar otra.</h1>
@@ -41,14 +44,14 @@
         <h5>-El Principito-</h5>
     </section>
 
-
+    <!-- Inicio del segundo bloque -->
     <section class="bloq-segundo">
         <a href="index.html"><img src="Responsive/../img/arriba.png">
             <a name="primeros_pasos"></a>
             <h3 class="titulo">Primeros pasos</h3>
             <p>Tan pequeños, tan frágiles, y con ellos son con los que empezamos a dar los primeros pasos. No paramos, vamos como locos, sin rumbo, sin preocupaciones.</p>
             <hr>
-
+            <!-- Mini galeria de imagenes, que se puede ver mas ampliada y con mas fotos en la seccion de fotos -->
             <ul class="grid">
                 <li class="small" style="background-image: url(Responsive/../img/pies_bebe_1.jpg);"></li>
                 <li class="large" style="background-image: url(Responsive/../img/pies_bebe_2.jpg);"></li>
@@ -57,7 +60,7 @@
             </ul>
     </section>
 
-
+    <!-- Inicio del tercer bloque-->
     <section class="bloq-tercero">
         <a href="index.html"><img src="Responsive/../img/arriba.png">
             <a name="apoyo"></a>
@@ -69,8 +72,9 @@
                 del soporte de los adultos para poder evolucionar, crecer y aprender. Siempre van a buscar una referencia, y esa referencia son los padres, que serán aquellos que nunca van a separar un ojo de ellos.</p>
             <img class="inter" src="Responsive/../img/mano_bebe_1.jpg" alt="Mano de bebe">
             <br><br>
+            <!-- Este hr es una linea azul para marcar a parte del fondo de pantalla degradado el fin de un bloque -->
             <hr>
-
+            <!-- 3 mini articulos del crecimiento y evolucion de los bebes -->
             <ul class="grid">
 
                 <li>
@@ -94,11 +98,11 @@
                 </li>
 
     </section>
-
+    <!-- En lugar de articulos, he puesto frases del principito -->
     <section class="articulos">
         <a href="index.html"><img src="Responsive/../img/arriba.png">
             <a name="cuentanos"></a>
-            <h3 class="titulo ">Cuentanos</h3>
+            <h3 class="titulo ">Cuéntanos</h3>
 
             <p class="art ">"Me pregunto si las estrellas se iluminan con el fin de que algún día, cada uno pueda encontrar la suya."</p>
             <p class="author ">— El Principito</p>
@@ -116,8 +120,7 @@
 
 
     </section>
-
-
+    <!-- Contacto con el administrador de la web -->
     <section class="contact">
         <h3 class="title ">Contacta con nosotros</h3>
         <p>Para cualquier duda, puedes ponerte en contacto con nosotros a través del correo o haciendo click en el icono del correo.</p>
@@ -128,8 +131,8 @@
 
 
     </section>
-
-    <footer>
+    <!-- Inicio del footer -->
+    <footer class="pie">
         <p>un blog creado para aprender </p>
         <ul>
             <a href="#">
