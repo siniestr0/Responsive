@@ -4,12 +4,23 @@
         color: black;
         margin: 0;
     }
-    header {
-        display: none;
-    }
     section {
         color: black;
         font-size: 15px;
+        page-break-inside: avoid;
+        /*ASI NO CORTARA LOS ARTICULOS*/
+    }
+    header {
+        display: none;
+    }
+    .bloq-segundo {
+        display: none;
+    }
+    .articulos {
+        page-break-inside: avoid;
+    }
+    .contact {
+        display: none;
     }
     footer {
         display: none;

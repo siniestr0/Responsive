@@ -281,11 +281,11 @@ header nav li:last-child {
 /*esto es el tamaño de las fotos para que ocupen el 100% del body*/
 
 .bloq-segundo .grid li.small {
-    flex-basis: 40%;
+    flex-basis: 35%;
 }
 
 .bloq-segundo .grid li.large {
-    flex-basis: 60%;
+    flex-basis: 55%;
 }
 
 
