@@ -24,7 +24,11 @@ nav {
 
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #414a4f;
+}
+
+a:hover {
+    color: #414a4f;
 }
 
 section {
@@ -83,5 +87,5 @@ ul.grid {
 }
 
 .bloq-segundo-fotos .grid li.medium {
-    flex-basis: 35%;
+    flex-basis: 30%;
 }

@@ -56,9 +56,6 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
         flex-basis: 70%;
         margin-bottom: 65px;
     }
-    .bloq-tercero .grid li:last-child {
-        margin-bottom: 0;
-    }
 }
 
 @media (max-width: 600px) {
@@ -68,19 +65,19 @@ Con esto hacemos que la web sea RESPONSIVE con media queries básicas, como se p
 }
 
 @media (max-width: 1200px) {
-    .reviews .quote {
+    .articulos .art {
         font-size: 20px;
     }
-    .reviews .author {
+    .articulos .author {
         font-size: 16px;
     }
 }
 
 @media (max-width: 1200px) {
-    .reviews .quote {
+    .articulos .art {
         font-size: 20px;
     }
-    .reviews .author {
+    .articulos .author {
         font-size: 16px;
     }
 }
@@ -338,15 +335,13 @@ header nav li:last-child {
 }
 
 
-/*--------------------
- 	Reviews Section
---------------------*/
+/* articulos*/
 
-.reviews {
+.articulos {
     background-color: #fff;
 }
 
-.reviews .quote {
+.articulos .art {
     text-align: center;
     width: 80%;
     font-size: 22px;
@@ -356,19 +351,21 @@ header nav li:last-child {
     padding: 0;
 }
 
-.reviews .author {
+.articulos .author {
     font-size: 18px;
     margin-bottom: 50px;
 }
 
-.reviews .author:last-child {
+.articulos .author:last-child {
     margin-bottom: 0;
 }
 
+.contact {
+    color: #414a4f;
+}
 
-/*-------------
- 	Footer
--------------*/
+
+/*footer */
 
 footer {
     display: flex;
@@ -387,15 +384,8 @@ footer ul {
 }
 
 footer ul li {
+    font-size: 15px;
     margin: 0 8px;
-}
-
-footer ul li:first-child {
-    margin-left: 0;
-}
-
-footer ul li:last-child {
-    margin-right: 0;
 }
 
 footer p {
